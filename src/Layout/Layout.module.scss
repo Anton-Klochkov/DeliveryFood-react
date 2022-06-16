@@ -1,0 +1,24 @@
+.mainLayout {
+  position: absolute;
+  width: 100%;
+  display: grid;
+  grid-template:
+    'head' 'head' 1fr
+    'main' 'main' 10fr
+    'footer' 'footer' 1fr
+}
+
+header {
+  grid-area: head;
+  background-color: red;
+}
+
+main {
+  grid-area: main;
+  background-color: greenyellow;
+}
+
+footer {
+  grid-area: footer;
+  background-color: black;
+}
