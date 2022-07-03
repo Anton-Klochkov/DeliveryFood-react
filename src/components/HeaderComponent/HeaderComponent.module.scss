@@ -1,0 +1,21 @@
+// .headerMain {
+.appBarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  position: sticky;
+
+  // .inputContainer {
+  //   width: 100%;
+  // }
+  .headerLogo {
+    width: 30vh;
+  }
+  .headerAction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+// }
