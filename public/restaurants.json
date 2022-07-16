@@ -1,0 +1,58 @@
+{
+  "Restaurants": [
+    {
+      "id": 0,
+      "nameRestaurant": "Pizza Land",
+      "title": "Готовим вкуснейшие пиццы и не только",
+      "price": 800,
+      "rating": 5,
+      "type": "pizza",
+      "logoIcon": "https://eda.ru/img/eda/c620x415/s1.eda.ru/StaticContent/Photos/120131082933/140915120914/p_O.jpg"
+    },
+    {
+      "id": 1,
+      "nameRestaurant": "Дом Пиццы",
+      "title": "Готовим вкусные пиццы на печи",
+      "price": 800,
+      "rating": 3,
+      "type": "pizza",
+      "logoIcon": "https://etopizza.ru/wp-content/uploads/2021/05/77-e1620050430774.jpg"
+    },
+    {
+      "id": 2,
+      "nameRestaurant": "Вкусно и 'Ну вы поняли'",
+      "title": "Готовим вкусные пиццы на печи",
+      "price": 550,
+      "rating": 4,
+      "type": "burger",
+      "logoIcon": "https://poisknews.ru/wp-content/uploads/2021/05/Depositphotos_24762569_s-2019.jpg"
+    },
+    {
+      "id": 3,
+      "nameRestaurant": "Пельмешка",
+      "title": "Крафтовые пельмени из свежего мяса и вкуснейшего теста",
+      "price": 650,
+      "rating": 4,
+      "type": "dumplings",
+      "logoIcon": "https://luckclub.ru/images/luckclub/2019/11/pelmeni-lozhki-spetsii.jpg"
+    },
+    {
+      "id": 4,
+      "nameRestaurant": "Суши Весла",
+      "title": "Готовим вкусные пиццы на печи",
+      "price": 800,
+      "rating": 2,
+      "type": "sushi",
+      "logoIcon": "https://okeanmarket.ru/media/k2/categories/39.jpg"
+    },
+    {
+      "id": 5,
+      "nameRestaurant": "Wok-и Тут",
+      "title": "Готовим вкусные пиццы на печи",
+      "price": 800,
+      "rating": 4,
+      "type": "wok",
+      "logoIcon": "https://smartchef.ru/image/cache/catalog/recipe/32/b7/32b7af580a0a7b01c8a7197b16577021-0x0.jpg"
+    }
+  ]
+}

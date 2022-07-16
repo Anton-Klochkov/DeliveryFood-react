@@ -60,6 +60,17 @@ const darkTheme = createTheme({
         },
       },
     },
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          width: '100%',
+          height: '100%',
+          '&:hover': {
+            boxShadow: '0px 0px 10px 5px #b71c1c',
+          },
+        },
+      },
+    },
     MuiSpeedDialAction: {
       styleOverrides: {
         staticTooltipLabel: {
@@ -116,6 +127,17 @@ const lightTheme = createTheme({
           flexDirection: 'row',
           position: 'sticky',
           backgroundColor: '#ffffff',
+        },
+      },
+    },
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          width: '100%',
+          height: '100%',
+          '&:hover': {
+            boxShadow: '0px 0px 10px 5px #2196f3 ',
+          },
         },
       },
     },

@@ -1,8 +1,8 @@
 import { AppBar, Box, Button, CardMedia, Menu, MenuItem } from '@mui/material';
 import { useContext, useState } from 'react';
 
-import LightLogoIcon from '../../assets/logoDarkTheme.svg';
-import DarkLogoIcon from '../../assets/logoLightTheme.svg';
+import LightLogoIcon from '../../assets/AppLogo/logoDarkTheme.svg';
+import DarkLogoIcon from '../../assets/AppLogo/logoLightTheme.svg';
 import { ThemeContext } from '../../UI/ThemeHandler/ThemeHandler';
 import ButtonLogIn from '../buttons/ButtonLogIn/ButtonLogIn';
 import ButtonLogOut from '../buttons/ButtonLogOut/ButtonLogOut';
