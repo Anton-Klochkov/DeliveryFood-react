@@ -30,13 +30,13 @@ const darkTheme = createTheme({
       main: '#212121',
     },
     background: {
-      paper: '#9e9e9e',
+      paper: '#b1b3b5',
     },
     info: {
       main: '#a10635',
     },
     common: {
-      main: 'white',
+      main: '#ffff',
     },
   },
   components: {
@@ -56,7 +56,7 @@ const darkTheme = createTheme({
           justifyContent: 'space-around',
           flexDirection: 'row',
           position: 'sticky',
-          backgroundColor: '#051b57',
+          backgroundColor: '#b1b3b5',
         },
       },
     },
@@ -68,6 +68,13 @@ const darkTheme = createTheme({
           '&:hover': {
             boxShadow: '0px 0px 10px 5px #b71c1c',
           },
+        },
+      },
+    },
+    MuiFormControlLabel: {
+      styleOverrides: {
+        label: {
+          color: '#d50000',
         },
       },
     },
@@ -106,7 +113,7 @@ const lightTheme = createTheme({
       main: '#ff9800',
     },
     common: {
-      main: '#ffff',
+      main: '#2196f3',
     },
   },
   components: {
@@ -138,6 +145,13 @@ const lightTheme = createTheme({
           '&:hover': {
             boxShadow: '0px 0px 10px 5px #2196f3 ',
           },
+        },
+      },
+    },
+    MuiFormControlLabel: {
+      styleOverrides: {
+        label: {
+          color: '#2196f3',
         },
       },
     },
@@ -194,6 +208,13 @@ const redTheme = createTheme({
           flexDirection: 'row',
           position: 'sticky',
           backgroundColor: '#ffc48a',
+        },
+      },
+    },
+    MuiFormControlLabel: {
+      styleOverrides: {
+        label: {
+          color: '#212121',
         },
       },
     },

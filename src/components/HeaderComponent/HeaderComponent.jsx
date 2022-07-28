@@ -1,12 +1,12 @@
-import { AppBar, Box, Button, CardMedia, Menu, MenuItem } from '@mui/material';
+import { AppBar, Box, CardMedia } from '@mui/material';
 import { useContext, useState } from 'react';
 
 import LightLogoIcon from '../../assets/AppLogo/logoDarkTheme.svg';
 import DarkLogoIcon from '../../assets/AppLogo/logoLightTheme.svg';
 import { ThemeContext } from '../../UI/ThemeHandler/ThemeHandler';
+import ButtonDefault from '../buttons/ButtonDefault/ButtonDefault';
 import ButtonLogIn from '../buttons/ButtonLogIn/ButtonLogIn';
 import ButtonLogOut from '../buttons/ButtonLogOut/ButtonLogOut';
-import ButtonRegistration from '../buttons/ButtonRegistration/ButtonRegistration';
 import InputComponent from '../Input/InputComponent';
 import ColorSetting from './ColorSetting/ColorSetting';
 
@@ -41,25 +41,44 @@ const HeaderComponent = () => {
         <InputComponent
           fullWidth={true}
           label="Введите ресторан"
-          variant="outlined"
+          variant="standard"
+          color="common"
         />
       </Box>
       <Box>
         <ColorSetting />
       </Box>
-      <Box>
-        {isActive ? (
-          <Box className={styles.headerAction}>
-            <Button variant="contained">Корзина</Button>
-            <ButtonLogOut onClick={toggleLogin} />
+      {isActive ? (
+        <Box className={styles.headerAction}>
+          <Box className={styles.containerButton}>
+            <ButtonDefault
+              color="action"
+              fullWidth={true}
+              title="Корзина"
+              variant="contained"
+            />
           </Box>
-        ) : (
-          <Box className={styles.headerAction}>
-            <ButtonLogIn onClick={toggleLogin} />
-            <ButtonRegistration />
+          <Box className={styles.containerButton}>
+            <ButtonLogOut
+              title="Выйти"
+              variant="outlined"
+              fullWidth={true}
+              onClick={toggleLogin}
+            />
           </Box>
-        )}
-      </Box>
+        </Box>
+      ) : (
+        <Box className={styles.headerAction}>
+          <Box className={styles.containerButton}>
+            <ButtonLogIn
+              title="Войти"
+              variant="outlined"
+              fullWidth={true}
+              onClick={toggleLogin}
+            />
+          </Box>
+        </Box>
+      )}
     </AppBar>
   );
 };

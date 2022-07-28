@@ -6,16 +6,28 @@
   flex-direction: row;
   position: sticky;
 
-  // .inputContainer {
-  //   width: 100%;
-  // }
+  .inputContainer {
+    width: 20%;
+  }
   .headerLogo {
-    width: 30vh;
+    width: 20%;
   }
   .headerAction {
     display: flex;
     align-items: center;
     justify-content: center;
+    .containerButton {
+      width: 100%;
+      padding: 8px;
+    }
   }
 }
-// }
+
+@media screen and (max-width: 1130px) {
+  .appBarContainer {
+    .headerAction {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+}

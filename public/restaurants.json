@@ -4,25 +4,229 @@
       "id": 0,
       "nameRestaurant": "Pizza Land",
       "title": "Готовим вкуснейшие пиццы и не только",
-      "price": 800,
+      "minPriceDelivery": 800,
       "rating": 5,
       "type": "pizza",
-      "logoIcon": "https://eda.ru/img/eda/c620x415/s1.eda.ru/StaticContent/Photos/120131082933/140915120914/p_O.jpg"
+      "logoIcon": "https://eda.ru/img/eda/c620x415/s1.eda.ru/StaticContent/Photos/120131082933/140915120914/p_O.jpg",
+      "menu": [
+        {
+          "id": 0,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
+          "name": "Пепперони Фреш с перцем",
+          "types": ["small", "normal", "large"],
+          "sizes": [26, 30, 40],
+          "price": 803,
+          "category": 0,
+          "rating": 4
+        },
+        {
+          "id": 1,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
+          "name": "Сырная",
+          "types": ["small", "normal"],
+          "sizes": [26, 40],
+          "price": 245,
+          "category": 1,
+          "rating": 6
+        },
+        {
+          "id": 2,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/6652fec1-04df-49d8-8744-232f1032c44b.jpg",
+          "name": "Цыпленок барбекю",
+          "types": ["small"],
+          "sizes": [26, 40],
+          "price": 295,
+          "category": 1,
+          "rating": 4
+        },
+        {
+          "id": 3,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/af553bf5-3887-4501-b88e-8f0f55229429.jpg",
+          "name": "Кисло-сладкий цыпленок",
+          "types": ["normal", "large"],
+          "sizes": [26, 30, 40],
+          "price": 275,
+          "category": 2,
+          "rating": 2
+        },
+        {
+          "id": 4,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+          "name": "Чизбургер-пицца",
+          "types": ["small", "normal", "large"],
+          "sizes": [26, 30, 40],
+          "price": 415,
+          "category": 3,
+          "rating": 8
+        },
+        {
+          "id": 5,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/1e1a6e80-b3ba-4a44-b6b9-beae5b1fbf27.jpg",
+          "name": "Крэйзи пепперони",
+          "types": ["small", "normal"],
+          "sizes": [30, 40],
+          "price": 580,
+          "category": 2,
+          "rating": 2
+        },
+        {
+          "id": 6,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d2e337e9-e07a-4199-9cc1-501cc44cb8f8.jpg",
+          "name": "Пепперони",
+          "types": ["small", "large"],
+          "sizes": [26, 30, 40],
+          "price": 675,
+          "category": 1,
+          "rating": 9
+        },
+        {
+          "id": 7,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d48003cd-902c-420d-9f28-92d9dc5f73b4.jpg",
+          "name": "Маргарита",
+          "types": ["small", "normal", "large"],
+          "sizes": [26, 30, 40],
+          "price": 450,
+          "category": 4,
+          "rating": 10
+        },
+        {
+          "id": 8,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/ec29465e-606b-4a04-a03e-da3940d37e0e.jpg",
+          "name": "Четыре сезона",
+          "types": ["small", "normal", "large"],
+          "sizes": [26, 30, 40],
+          "price": 395,
+          "category": 5,
+          "rating": 10
+        },
+        {
+          "id": 9,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/30367198-f3bd-44ed-9314-6f717960da07.jpg",
+          "name": "Овощи и грибы 🌱",
+          "types": ["small", "normal", "large"],
+          "sizes": [26, 30, 40],
+          "price": 285,
+          "category": 5,
+          "rating": 7
+        }
+      ]
     },
     {
       "id": 1,
       "nameRestaurant": "Дом Пиццы",
       "title": "Готовим вкусные пиццы на печи",
-      "price": 800,
+      "minPriceDelivery": 800,
       "rating": 3,
       "type": "pizza",
-      "logoIcon": "https://etopizza.ru/wp-content/uploads/2021/05/77-e1620050430774.jpg"
+      "logoIcon": "https://catherineasquithgallery.com/uploads/posts/2021-02/1614404421_18-p-pitstsa-na-temnom-fone-24.jpg",
+      "menu": [
+        {
+          "id": 0,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
+          "name": "Пепперони Фреш с перцем",
+          "types": ["small"],
+          "sizes": [26, 30, 40],
+          "price": 803,
+          "category": 0,
+          "rating": 4
+        },
+        {
+          "id": 1,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
+          "name": "Сырная",
+          "types": [ "normal", "large"],
+          "sizes": [26, 40],
+          "price": 245,
+          "category": 1,
+          "rating": 6
+        },
+        {
+          "id": 2,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/6652fec1-04df-49d8-8744-232f1032c44b.jpg",
+          "name": "Цыпленок барбекю",
+          "types": [ "large"],
+          "sizes": [26, 40],
+          "price": 295,
+          "category": 1,
+          "rating": 4
+        },
+        {
+          "id": 3,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/af553bf5-3887-4501-b88e-8f0f55229429.jpg",
+          "name": "Кисло-сладкий цыпленок",
+          "types": ["small", "normal"],
+          "sizes": [26, 30, 40],
+          "price": 275,
+          "category": 2,
+          "rating": 2
+        },
+        {
+          "id": 4,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+          "name": "Чизбургер-пицца",
+          "types": ["small", "normal"],
+          "sizes": [26, 30, 40],
+          "price": 415,
+          "category": 3,
+          "rating": 8
+        },
+        {
+          "id": 5,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/1e1a6e80-b3ba-4a44-b6b9-beae5b1fbf27.jpg",
+          "name": "Крэйзи пепперони",
+          "types": ["small"],
+          "sizes": [30, 40],
+          "price": 580,
+          "category": 2,
+          "rating": 2
+        },
+        {
+          "id": 6,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d2e337e9-e07a-4199-9cc1-501cc44cb8f8.jpg",
+          "name": "Пепперони",
+          "types": ["small", "normal", "large"],
+          "sizes": [26, 30, 40],
+          "price": 675,
+          "category": 1,
+          "rating": 9
+        },
+        {
+          "id": 7,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d48003cd-902c-420d-9f28-92d9dc5f73b4.jpg",
+          "name": "Маргарита",
+          "types": ["small", "normal", "large"],
+          "sizes": [26, 30, 40],
+          "price": 450,
+          "category": 4,
+          "rating": 10
+        },
+        {
+          "id": 8,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/ec29465e-606b-4a04-a03e-da3940d37e0e.jpg",
+          "name": "Четыре сезона",
+          "types": ["small", "normal"],
+          "sizes": [26, 30, 40],
+          "price": 395,
+          "category": 5,
+          "rating": 10
+        },
+        {
+          "id": 9,
+          "imageUrl": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/30367198-f3bd-44ed-9314-6f717960da07.jpg",
+          "name": "Овощи и грибы 🌱",
+          "types": ["normal", "large"],
+          "sizes": [26, 30, 40],
+          "price": 285,
+          "category": 5,
+          "rating": 7
+        }
+      ]
     },
     {
       "id": 2,
       "nameRestaurant": "Вкусно и 'Ну вы поняли'",
       "title": "Готовим вкусные пиццы на печи",
-      "price": 550,
+      "minPriceDelivery": 550,
       "rating": 4,
       "type": "burger",
       "logoIcon": "https://poisknews.ru/wp-content/uploads/2021/05/Depositphotos_24762569_s-2019.jpg"
@@ -31,7 +235,7 @@
       "id": 3,
       "nameRestaurant": "Пельмешка",
       "title": "Крафтовые пельмени из свежего мяса и вкуснейшего теста",
-      "price": 650,
+      "minPriceDelivery": 650,
       "rating": 4,
       "type": "dumplings",
       "logoIcon": "https://luckclub.ru/images/luckclub/2019/11/pelmeni-lozhki-spetsii.jpg"
@@ -40,7 +244,7 @@
       "id": 4,
       "nameRestaurant": "Суши Весла",
       "title": "Готовим вкусные пиццы на печи",
-      "price": 800,
+      "minPriceDelivery": 800,
       "rating": 2,
       "type": "sushi",
       "logoIcon": "https://okeanmarket.ru/media/k2/categories/39.jpg"
@@ -49,7 +253,7 @@
       "id": 5,
       "nameRestaurant": "Wok-и Тут",
       "title": "Готовим вкусные пиццы на печи",
-      "price": 800,
+      "minPriceDelivery": 800,
       "rating": 4,
       "type": "wok",
       "logoIcon": "https://smartchef.ru/image/cache/catalog/recipe/32/b7/32b7af580a0a7b01c8a7197b16577021-0x0.jpg"

@@ -1,10 +1,10 @@
-import { Button, Typography } from '@mui/material';
-import React from 'react';
+import { Button } from '@mui/material';
 import PersonIcon from '@mui/icons-material/Person';
-const ButtonLogIn = ({ ...props }) => {
+
+const ButtonLogIn = ({ title, color, variant, fullWidth, ...props }) => {
   return (
-    <Button variant="contained" {...props} endIcon={<PersonIcon />}>
-      Войти
+    <Button {...props} color={color} fullWidth={fullWidth} variant={variant} endIcon={<PersonIcon />}>
+     {title}
     </Button>
   );
 };

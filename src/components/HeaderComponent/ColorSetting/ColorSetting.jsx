@@ -45,14 +45,13 @@ const ColorSetting = () => {
         <h3>Настройки пользователя</h3>
       </FormLabel>
       <RadioGroup
-        row={true}
         className={styles.variantColor}
         value={value}
         onChange={handleThemeChange}
       >
-        <FormControlLabel value="light" control={<Radio />} label="Light" />
-        <FormControlLabel value="dark" control={<Radio />} label="Dark" />
-        <FormControlLabel value="red" control={<Radio />} label="Red" />
+        <FormControlLabel value="light" control={<Radio />} label="Светлая" />
+        <FormControlLabel value="dark" control={<Radio />} label="Темная" />
+        <FormControlLabel value="red" control={<Radio />} label="testTheme" />
       </RadioGroup>
     </FormControl>
   );

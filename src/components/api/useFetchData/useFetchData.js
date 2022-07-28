@@ -12,16 +12,15 @@ export const useFetchData = (url) => {
         const result = await url;
         setData(result.data);
         setIsError(false);
+        setIsLoading(false);
       } catch (error) {
         setIsError(false);
-        throw new Error(error);
-      } finally {
         setIsLoading(true);
+        throw new Error(error);
       }
     };
     getData();
   }, []);
 
-
-  return { data, isError, isLoading};
+  return { data, isError, isLoading };
 };

@@ -7,7 +7,7 @@ const RestaurantsList = ({ rData }) => {
   return (
     <>
       {rData?.length ? (
-        <Grid container spacing={2}>
+        <Grid container spacing={8} sx={{padding: '0 64px'}}>
           {rData.map((item) => (
             <Grid className={styles.cardItemWrapper} item xs={12} sm={6} md={4} key={item.id}>
               <RestaurantListItem item={item} />

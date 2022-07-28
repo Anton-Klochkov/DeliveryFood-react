@@ -2,7 +2,7 @@
   height: 100%;
   width: 100%;
 }
-.cardContent {
+.cardItemWrapper {
   display: flex;
   align-items: start;
   justify-content: space-between;
@@ -11,8 +11,4 @@
     height: 50%;
     width: 100%;
   }
-}
-
-.restaurantCardWrapper:hover {
-  box-shadow: 0px 0px 10px 5px rgb(227, 86, 229);
 }

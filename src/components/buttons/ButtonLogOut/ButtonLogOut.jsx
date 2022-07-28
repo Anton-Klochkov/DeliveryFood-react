@@ -1,11 +1,16 @@
-import { Box, Button, Typography } from '@mui/material';
-import React from 'react';
+import { Button } from '@mui/material';
 import LogoutIcon from '@mui/icons-material/Logout';
 
-const ButtonLogOut = ({ ...props }) => {
+const ButtonLogOut = ({ title, color, variant, fullWidth, ...props }) => {
   return (
-    <Button variant="outlined" type="auth" {...props} endIcon={<LogoutIcon />}>
-      Выйти
+    <Button
+      {...props}
+      color={color}
+      fullWidth={fullWidth}
+      variant={variant}
+      endIcon={<LogoutIcon />}
+    >
+      {title}
     </Button>
   );
 };

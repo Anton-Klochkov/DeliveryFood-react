@@ -1,23 +1,20 @@
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import { Box, Divider, Rating } from '@mui/material';
+import { Box, Rating } from '@mui/material';
 
 import { styled } from '@mui/material/styles';
 import styles from './RestaurantListItem.module.scss';
-import { height } from '@mui/system';
 import { useState } from 'react';
 import MenuComponent from '../../MenuComponent/MenuComponent';
 
 const RestaurantListItem = ({ item }) => {
-  const { logoIcon, nameRestaurant, price, rating, title, type } = item;
+  const { logoIcon, nameRestaurant, minPriceDelivery, rating, title } = item;
 
-  const curPrice = `Минимальная цена заказа ${price}`;
+  const curPrice = `Минимальная цена заказа ${minPriceDelivery}`;
 
-  const [rait, setRait] = useState(rating);
+  const [rate, setRate] = useState(rating);
 
   const CustomCardMedia = styled('img')(() => ({
     display: 'flex',
@@ -35,7 +32,7 @@ const RestaurantListItem = ({ item }) => {
   };
 
   return (
-    <Card className={styles.cardContent}>
+    <Card onClick={handleToggleForm} className={styles.cardItemWrapper}>
       <Box className={styles.wrapImg}>
         <CustomCardMedia component="img" src={logoIcon} alt="Изображение" />
       </Box>
@@ -49,21 +46,17 @@ const RestaurantListItem = ({ item }) => {
         <Typography>{curPrice}</Typography>
       </CardContent>
       <Rating
-        value={rait}
+        value={rate}
         onChange={(event, newValue) => {
-          setRait(newValue);
+          setRate(newValue);
         }}
       />
-      <CardActions
-        sx={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          padding: '0',
-          width: '100%',
-        }}
-      >
-        <MenuComponent checked={checked} handleToggleForm={handleToggleForm} />
+      <CardActions className={styles.cardAction}>
+        <MenuComponent
+          checked={checked}
+          handleToggleForm={handleToggleForm}
+          menu={item?.menu}
+        />
       </CardActions>
     </Card>
   );

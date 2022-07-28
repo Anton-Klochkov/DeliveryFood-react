@@ -1,5 +1,18 @@
 .themeContainer {
   display: flex;
   align-items: center;
-
+  width: 100%;
+  .variantColor {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .themeContainer {
+    .variantColor {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
 }
